@@ -200,6 +200,15 @@ header {
   font-size: 16px;
 }
 
+.section5 .top h2::after {
+  width: 15%;
+  height: 4px;
+  background-color: #6366f1;
+  content: "";
+  display: block;
+  border-radius: 2px;
+}
+
 .section5 .card-group {
   width: 100%;
 }
@@ -246,7 +255,7 @@ header {
 }
 
 .section6 .card {
-  padding-bottom: 40px;
+  padding: 40px 0;
   border: unset;
   border-bottom: solid 2px;
 }
@@ -270,6 +279,10 @@ header {
   border-radius: 50% !important;
 }
 
+.section6 button {
+  margin-top: 40px;
+}
+
 .section7 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -277,22 +290,130 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 70%;
-  margin: 96px auto;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 96px;
 }
 
-.section7 img {
-  width: 600px;
-  height: 600px;
+.section7 .img {
+  width: 50%;
+}
+
+.section7 .img img {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  min-height: 516px;
   border-radius: 5px;
 }
 
 .section7 .card {
   border: unset;
+  width: 50%;
 }
 
 .section7 .card .g-0 {
-  padding: 50px;
+  padding: 20px 0 0 20px;
+}
+
+.section7 .card .g-0 .col-md-8 {
+  width: 100%;
+}
+
+.section7 .card .g-0 .col-md-8 .card-body {
+  width: 100% !important;
+  border-bottom: solid 1px;
+}
+
+.section7 .card .g-0 .col-md-8 .card-body .color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section7 .card .g-0 .col-md-8 .card-body .color h4 {
+  margin-right: 5px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.section7 .card .g-0 .col-md-8 .card-body .color .ball {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section7 .card .g-0 .col-md-8 .card-body .color .ball .white {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  border: solid 2px;
+  margin: 5px;
+}
+
+.section7 .card .g-0 .col-md-8 .card-body .color .ball .black {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  border: solid 2px;
+  margin: 5px;
+}
+
+.section7 .card .g-0 .col-md-8 .card-body .color .ball .blue {
+  width: 20px;
+  height: 20px;
+  background-color: skyblue;
+  border-radius: 50%;
+  border: solid 2px;
+  margin: 5px;
+}
+
+.section7 .card .g-0 .col-md-8 .card-body .size {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-left: 50px;
+}
+
+.section7 .card .g-0 .col-md-8 .card-body .size select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: solid 1px;
+  color: gray;
+}
+
+.section7 .card .g-0 .col-md-8 .buy {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section7 .card .g-0 .col-md-8 .buy button {
+  margin-left: 5px;
 }
 
 .section8 {
@@ -318,9 +439,44 @@ header {
 }
 
 .section9 {
+  position: relative;
   -webkit-filter: grayscale(0.8);
           filter: grayscale(0.8);
   padding: 0;
+}
+
+.section9 .Form_controls {
+  width: 25%;
+  height: 70%;
+  padding: 20px 30px;
+  border-radius: 10px !important;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.section9 .Form_controls h2 {
+  font-size: 18px;
+}
+
+.section9 .Form_controls p {
+  font-size: 16px;
+}
+
+.section9 .Form_controls .message input {
+  padding-bottom: 96px;
+}
+
+.section9 button {
+  width: 100%;
+  display: block;
+  margin: 24px auto;
+}
+
+.section9 .sml {
+  font-size: 12px !important;
 }
 
 .section10 {

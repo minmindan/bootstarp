@@ -1,0 +1,129 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+  margin: 0;
+}
+
+.background {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://dummyimage.com/1920x1080);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0 96px;
+  opacity: unset;
+}
+
+.left h1 {
+  color: white;
+  font-size: 48px;
+  line-height: 48px;
+  margin: 16px 0;
+}
+
+.left p {
+  color: white;
+  font-size: 30px;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  background-color: #162446;
+  opacity: 0.1;
+  opacity: 1 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.right img {
+  margin: 0 auto;
+  margin-top: -24px;
+  margin-bottom: 96px;
+  width: auto;
+  max-height: 128px;
+}
+
+.right p {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.right .in {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.right .in input {
+  width: 100%;
+  padding: 20px;
+  border: 0px;
+  border-radius: 1px;
+  background-color: black;
+}
+
+.right .in .aa {
+  margin-top: 15px;
+  text-align: right;
+}
+
+.right .in .aa a {
+  color: gray;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.right .in .aa a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.right .in button {
+  display: block;
+  padding: 15px;
+  margin: 15px auto;
+  width: 90%;
+  border-radius: 28px;
+  letter-spacing: 2px;
+}
+/*# sourceMappingURL=login.css.map */
