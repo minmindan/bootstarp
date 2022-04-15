@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    background-color: white;
+    // background-color: white;
 }
 button:focus{
     box-shadow: 0 0 0 0rem;
@@ -207,12 +207,26 @@ header{
         border: unset;
         width: 50%;
         .g-0{
-            padding: 20px 0 0 20px;
+            padding: 20px 20px 0 20px;
             .col-md-8{
                 width: 100%;
                 .card-body{
                     width: 100% !important;
                     border-bottom: solid 1px;
+                    .fon{
+                        width: 40%;
+                        border-right: solid 1px;
+                        i{
+                            font-size: 16px;
+                            letter-spacing: -2px;
+                        }
+                        span{
+                            margin-left: 20px;
+                        }
+                    }
+                    .logo{
+                        width: 50%;
+                    }
                     .color{
                         display: flex;
                         justify-content: start;
@@ -266,6 +280,12 @@ header{
                     justify-content: space-between;
                     button{
                         margin-left: 5px;
+                    }
+                    .heart{
+                        border-radius: 50%;
+                        height: 40px;width: 40px;
+                        color: gray;
+                        background-color: aqua;
                     }
                 }
             }

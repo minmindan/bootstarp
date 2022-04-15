@@ -1,7 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: white;
 }
 
 button:focus {
@@ -314,7 +313,7 @@ header {
 }
 
 .section7 .card .g-0 {
-  padding: 20px 0 0 20px;
+  padding: 20px 20px 0 20px;
 }
 
 .section7 .card .g-0 .col-md-8 {
@@ -324,6 +323,24 @@ header {
 .section7 .card .g-0 .col-md-8 .card-body {
   width: 100% !important;
   border-bottom: solid 1px;
+}
+
+.section7 .card .g-0 .col-md-8 .card-body .fon {
+  width: 40%;
+  border-right: solid 1px;
+}
+
+.section7 .card .g-0 .col-md-8 .card-body .fon i {
+  font-size: 16px;
+  letter-spacing: -2px;
+}
+
+.section7 .card .g-0 .col-md-8 .card-body .fon span {
+  margin-left: 20px;
+}
+
+.section7 .card .g-0 .col-md-8 .card-body .logo {
+  width: 50%;
 }
 
 .section7 .card .g-0 .col-md-8 .card-body .color {
@@ -414,6 +431,14 @@ header {
 
 .section7 .card .g-0 .col-md-8 .buy button {
   margin-left: 5px;
+}
+
+.section7 .card .g-0 .col-md-8 .buy .heart {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  color: gray;
+  background-color: aqua;
 }
 
 .section8 {
